@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques 2</title>
+</head>
+
+<body>
+    <form action="/action">
+        <div>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fname" required>
+        </div>
+
+        <div>
+            <label for="Sex">Sex:</label>
+            <input type="radio" id="Male" name="ml" value="m">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="fe" value="f">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+            <label for="Cname">Country</label>
+            <select name="option" id="cname">
+                <option value="options">Select an option</option>
+                <option value="india">India</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+            </select>
+            <div>
+    
+            <label for="msg">Message:</label>
+            <textarea name="feedback" id="msg" rows="4" cols="20"></textarea>
+
+            </div>
+            <input type="checkbox" id="subs" name="subsribe">
+            <label for="subs">Subscribe?</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
