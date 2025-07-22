@@ -1,0 +1,28 @@
+h1{
+    text-align: center;  
+    /* it is as compared with parent element that is h1 */
+    text-decoration: wavy red underline;
+}
+
+h3{
+    text-align: end;
+    font-weight: 900;
+    text-decoration:yellowgreen line-through ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+p{
+    text-align: justify;
+    line-height: 2.5;
+}
+
+h2{
+    text-decoration: underline;
+    letter-spacing: 10px ;
+    word-spacing: 40vw;
+}
+
+a{
+    text-decoration: none;
+}
