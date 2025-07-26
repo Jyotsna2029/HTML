@@ -1,0 +1,28 @@
+#alpha{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(131, 0, 143, 0.3);
+}
+
+#opacity{
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    opacity: 0.7;
+}
+
+#transitions{
+    margin-top:20px ;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+
+    /* transition properties */
+    transition: 2s;
+    transition-timing-function:ease-in-out;
+}
+#transitions:hover{
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin-left: 90px;
+}

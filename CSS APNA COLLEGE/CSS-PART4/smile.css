@@ -1,0 +1,42 @@
+#face{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    border-radius: 50%;
+    position: relative;
+      box-shadow: 2px 5px 20px black;
+}
+
+#face:hover{
+    box-shadow: 2px 3px 10px black;
+    transition: 1s;
+    transform: scale(1.5);
+}
+#leftEye, #rightEye{
+    background-color: black;
+    height: 30px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+}
+#leftEye{
+    top: 60px;
+    left: 60px;
+}
+#rightEye{
+    top: 60px;
+    left: 115px;
+}
+
+#mouth{
+    background-color: brown;
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
