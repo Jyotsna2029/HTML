@@ -1,0 +1,50 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#static{
+    background-color: yellow;
+    position: static;
+    /* no effect of top, bottom, left, right, zindex */
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: red;
+    position: relative;
+    top: 60px;
+    right: 10px;
+}
+
+#absolute{
+    background-color: orange;
+    position: absolute;
+    bottom :100px ;
+
+
+}
+#absoluteSection{
+    position: relative;
+}
+
+#fixed{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.section_sticky{
+    position: relative;
+}
+
+#sticky{
+    background-color: brown;
+    position: sticky;
+    left: 500px;
+}
