@@ -1,0 +1,11 @@
+let data = {
+    email:"ironman@gmail.com",
+    password:"abcde"
+}; 
+console.log(dataCopy);
+const dataCopy = {...data, id: 123, country:"India"};
+console.log(dataCopy);
+
+let obj2 = "abcde";
+let objCopy = [...obj2];
+console.log(objCopy);
