@@ -5,7 +5,12 @@ body {
 #mainImg {
   width: 35%;
 }
-
+.green{
+  background-color: green;
+}
+.unline{
+  text-decoration: underline orange;
+}
 .box {
   border: 0.25px solid black;
   background-color: lightgray;
